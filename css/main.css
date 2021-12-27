@@ -1,0 +1,152 @@
+
+@font-face {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  src:
+       url('../fonts/fraunces-v10-latin-900.woff2') format('woff2'), 
+       url('../fonts/fraunces-v10-latin-900.woff') format('woff');
+}
+
+
+
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  src: 
+       url('../fonts/barlow-v5-latin-regular.woff2') format('woff2'), 
+       url('../fonts/barlow-v5-latin-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 700;
+  src: 
+       url('../fonts/barlow-v5-latin-700.woff2') format('woff2'),
+       url('../fonts/barlow-v5-latin-700.woff') format('woff'); 
+}
+
+*{
+  box-sizing: border-box;
+}
+
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: barlow;
+}
+
+
+img{
+  object-fit: cover;
+  vertical-align: middle;
+}
+
+
+
+.container{
+  width: 1320px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header__user{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+
+
+
+
+.header__list{
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header__item{
+  margin: 0;
+  padding: 0;
+  margin-left: 33px;
+  
+  
+}
+
+.header__item:nth-child(1){
+  margin-left: 0;
+}
+
+.header__sublink{
+  text-decoration: none;
+  color:#83888F;
+  font-weight:700;
+  font-size: 12px;
+  line-height: 15px;
+  font-style: normal;
+  letter-spacing: 0.92px;
+}
+
+.header__sublink:hover{
+  color:#333D4B;
+}
+
+
+.hero__section{
+  background-image: url(../img/Bitmap.svg);
+  width: 1280px;
+  height: 600px;
+  border: 1px solid #0A0A0A;
+  border-radius: 12px;
+}
+
+.hero__user{
+  width: 493px;
+  margin-top:117px;
+  margin-right: 702px;
+  margin-bottom: 116px;
+  margin-left: 85px;
+}
+
+.hero__title{
+  margin: 0;
+  padding: 0;
+  font-weight: 900;
+  font-family: Fraunces;
+  font-size: 72px;
+  line-height: 72px;
+  color: #FEFCF7;
+  margin-bottom: 32px;
+}
+
+.hero__text{
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  margin-bottom: 56px;
+  opacity: 0.8;
+}
+
+.hero__link{
+  text-decoration: none;
+  font-family: Fraunces;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  color:#FEFCF7;
+  padding: 15px 30px;
+  background-color:  #0E8784;
+  border-radius: 6px;
+}
+
+.hero__link:hover{
+  background-color: #66D2CF;
+}
